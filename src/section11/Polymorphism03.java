@@ -9,29 +9,36 @@ public class Polymorphism03 {
 	public static void main(String[] args) {
 		
 		TopClothesCategory tcc1 = new TopClothesCategory("반팔");
-		
 		tcc1.getInfo();
-		tcc1.getdiscountRate();
+		tcc1.getDiscountRate();
 		
-System.out.println("======================================");
-		
+		System.out.println("=============================");
 		PantsClothesCategory pcc1 = new PantsClothesCategory("청바지");
 		pcc1.getInfo();
-		pcc1.getdiscountRate();
+		pcc1.getDiscountRate();
 		
-System.out.println("=====================================");
-
-
+		System.out.println("=============================");
 		Category c1 = tcc1;
 		c1.getInfo();
-		c1.getdiscountRate();
-
-System.out.println("=====================================");
-
-
+		c1.getDiscountRate();	// 10% 할인 ...
+		
+		System.out.println("=============================");
 		Category c2 = pcc1;
 		c2.getInfo();
-		c2.getdiscountRate();
-
+		c2.getDiscountRate();	// 30% 할인 ...
+		
+		
+		
 	}
 }
+
+
+
+
+
+
+
+
+
+
+

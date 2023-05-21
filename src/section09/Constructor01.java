@@ -5,6 +5,8 @@ package section09;
  * 	객체 초기화 목적에 사용
  * 	클래스명과 동일하다.
  * 	오버로딩 가능하다.
+ * 
+ * 
  */
 public class Constructor01 {
 	public static void main(String[] args) {

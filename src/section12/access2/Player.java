@@ -6,7 +6,8 @@ public interface Player {
 	
 	public void kick();
 	
-	public void shoot();
+	public void shot();
 	
 	public void dribble();
+
 }

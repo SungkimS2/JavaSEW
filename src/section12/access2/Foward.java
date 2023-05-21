@@ -1,6 +1,7 @@
 package section12.access2;
 
 public class Foward implements Player, Team{
+	
 	public String name;
 	
 	public Foward() {
@@ -18,25 +19,22 @@ public class Foward implements Player, Team{
 	}
 
 	@Override
-	public void shoot() {
+	public void shot() {
 		System.out.println("강력하고 정확해요.");
 	}
 
 	@Override
 	public void dribble() {
-		System.out.println("파워풀하고 빠릅니다.");
+		System.out.println("파워풀하고 빨라요.");
 	}
 
 	@Override
 	public void printClubTeamInfo() {
 		System.out.println("맨체스터 시티");
-		
 	}
 
 	@Override
 	public void printNationalTeamInfo() {
-		System.out.println("폴란드");
-		
+		System.out.println("노르웨이 국가대표");
 	}
-
 }
