@@ -17,12 +17,12 @@ public class Collection01 {
 		
 		
 		// 생성한 객체에 자료 저장하기
-		stack.push("피카츄");
-		stack.push("라이츄");
-		stack.push("파이리");
-		stack.push("꼬부기");
-		stack.push("버터플");
-		stack.push("야도란");
+		stack.push("중식");
+		stack.push("일식");
+		stack.push("한식");
+		stack.push("돈까스");
+		stack.push("서브웨이");
+		stack.push("쌀국수");
 	
 		// 현재 저장하고 있는 데이터 개수
 		System.out.println("데이터 개수: " + stack.size()); // 얘는 사이즈 메서드로 알 수 있음. 렝스 아님!
