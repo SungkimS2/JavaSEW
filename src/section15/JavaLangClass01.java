@@ -42,6 +42,8 @@ public class JavaLangClass01 {
 		System.out.println(sports1.hashCode());
 		System.out.println(sports2.hashCode());
 		
+		System.out.println(System.identityHashCode(sports1));
+		System.out.println(System.identityHashCode(sports2));
 	}
 	
 	

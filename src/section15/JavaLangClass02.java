@@ -31,12 +31,17 @@ public class JavaLangClass02 {
 		
 		System.out.println(sports1.hashCode());
 		System.out.println(sports2.hashCode());
+		System.out.println(System.identityHashCode(sports2));
 		
 		if(sports1.equals(obj1)) {
 			System.out.println("sports1 과 obj1는 같습니다.");
 		} else {
 			System.out.println("sports1 과 obj1는 다릅니다.");
 		}
+		
+		System.out.println(sports1.hashCode());
+		System.out.println(obj1.hashCode());
+		System.out.println(System.identityHashCode(obj1));
 		
 		
 		if(sports1.equals(sports3)) {
@@ -45,8 +50,9 @@ public class JavaLangClass02 {
 			System.out.println("sports1 과 sports3는 다릅니다.");
 		}
 		
-		
-		
+		System.out.println(sports1.hashCode());
+		System.out.println(sports3.hashCode());
+		System.out.println(System.identityHashCode(sports3));
 		
 		
 	}
