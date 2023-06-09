@@ -8,7 +8,7 @@ import java.util.Date;
 public class JavaUtilClass05 {
 	public static void main(String[] args) throws ParseException {
 		
-		String result = dateCalc("2023-06-09", "yyyy-MM-dd", 0, 0, 1, 0, 0, 0);
+		String result = dateCalc("2023-06-09", "yyyy-MM-dd", 0, 0, -929, 0, 0, 0);
 		System.out.println(result);
 	}
 	
